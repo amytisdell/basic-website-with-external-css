@@ -1,0 +1,88 @@
+html {
+    background-color: #e7e5dd;
+}
+
+h1 {
+    font-family: cursive;
+    font-weight: 100;
+    color: #dd7564;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    color: #1fa5a6;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+img {
+    width: 300px;
+    height:auto;
+}
+
+#myPic {
+    width: 250px
+}
+
+#hint {
+    font-style: italic;
+ }
+
+ table, th, td {
+    border: 1px solid;
+    background-color: #deb1aa;
+}
+
+/* I was able to complete the following code by following the instructions on https://www.w3schools.com/css/css_navbar_vertical.asp */ 
+
+.navbar {
+    border: 1px solid black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    overflow: hidden;
+    background-color:#dd7564;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    color:black;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar li a:hover {
+    background-color:#1fa5a6;
+    color: white;
+}
+
+ #aboutLinks {
+    border: 1px solid black;
+    display: block;
+    list-style-type: none;
+    margin: none;
+    padding: none;
+    display: block;
+    width: 140px;
+    background-color:#a9a9a9;
+ }
+
+ li a {
+    display: block;
+    color: #000;
+    padding: 6px 12px;
+    text-decoration: none;
+    }
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+      
